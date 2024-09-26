@@ -1,0 +1,330 @@
+p {
+    color: red;
+     /* Це однорядковий коментар */
+     text-align: center;
+   }
+   
+   /* Це
+   багаторядковий
+   коментар */
+#para1 {
+    text-align: center;
+    color: red;
+  }
+.center {
+    text-align: center;
+    color: red;
+  }
+p.center {
+    text-align: center;
+    color: red;
+  }
+* {
+    text-align: center;
+    color: blue;
+  }
+h1, h2, p {
+    text-align: center;
+    color: red;
+  }
+body {
+    background-color: lightblue;
+  }
+.fh1 {
+    background-color: green;
+  }
+  
+.fdiv {
+    background-color: green;
+  opacity: 0.3;
+  }
+  
+.fp {
+    background-color: yellow;
+  }
+.f2div {
+    background: rgba(111, 28, 199, 0.3) /*  фон з opacity 30% */
+  }
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+.p161 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+.p162 {
+    margin: 25px 50px 75px 100px;
+  }
+.p163 {
+width: 300px;
+margin: auto;
+border: 1px solid red;
+}
+.p164 {
+    border: 1px solid rgb(166, 0, 255);
+    margin-left: 100px;
+  }
+  
+p.ex1 {
+    margin-left: inherit;
+  }
+.p181 {
+    border: 1px solid black;
+    background-color: rgb(183, 32, 143);
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+.p191 {
+    height: 200px;
+  width: 50%;
+  background-color: rgb(223, 139, 94);
+}
+.p192 {
+  height: 100px;
+  width: 500px;
+  background-color: rgb(133, 88, 135);
+}
+.p193 {
+max-width: 500px;
+height: 100px;
+background-color: rgb(109, 129, 103);
+}
+.p1101 {
+    width: 300px;
+    border: 15px solid green;
+   padding: 50px;
+   margin: 20px;
+}
+.p1102 {
+    width: 320px;
+   padding: 10px;
+   border: 5px solid gray;
+   margin: 0; 
+  }
+  a:link {
+    color: red;
+  }
+  
+  /* відвідуване посилання */
+  a:visited {
+    color: green;
+  }
+  
+  /* посилання при наведенні миші */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* активне посилання */
+  a:active {
+    color: blue;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+  a:link {
+    background-color: yellow;
+  }
+  
+  a:visited {
+    background-color: cyan;
+  }
+  
+  a:hover {
+    background-color: lightgreen;
+  }
+  
+  a:active {
+    background-color: hotpink;
+  } 
+  a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
+  ul.a {
+    list-style-type: circle;
+    list-style-position: outside;
+  }
+  
+  ul.b {
+    list-style-type: square;
+    list-style-position: inside;
+  }
+  
+  ol.c {
+    list-style-type: upper-roman;
+  }
+  
+  ol.d {
+    list-style-type: lower-alpha;
+  }
+  ul {
+    list-style-type: none;
+    background: #3399ff;
+    margin: 0;
+    padding: 0;
+  }
+  ol {
+    background: #ff9999;
+    padding: 20;
+  }
+  ol li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+  }
+  
+  ul li {
+    background: #cce5ff;
+    margin: 5px;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+.t1141 {
+  border-collapse: collapse;
+  width: 100%;
+}
+.t1141 th {
+    height: 70px;
+}
+.t1141 td {
+    height: 50px;
+  vertical-align: bottom;
+}
+.t1143 th {
+    background-color: #04AA6D;
+    color: white;
+  }
+.t11431 tr:nth-child(even) 
+{background-color: #f2f2f2;}
+.t11431 {
+    border-collapse: collapse;
+  width: 100%;
+}
+.t11431 th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  #rcorners1 {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+  }
+  
+  #rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+  }
+  
+  #rcorners3 {
+    border-radius: 25px;
+    background: url(https://media0.giphy.com/media/jUwpNzg9IcyrK/200w.gif?cid=6c09b952tz6ccssbyublzxjq4cvymdtwqsmxob69y6ei68v4&ep=v1_gifs_search&rid=200w.gif&ct=g);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+  }
+  #rcorners4 {
+    border-radius: 15px 50px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+  } 
+  
+.d22 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 247, 0);
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+    from {background-color: rgb(251, 251, 6);}
+    to {background-color: rgb(0, 0, 255);}
+  }
+.d221 {
+    width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example2;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate; 
+  }
+  
+  @keyframes example2 {
+    
+  
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
